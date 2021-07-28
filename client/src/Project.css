@@ -1,0 +1,103 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#full_body_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#image_wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-self: center;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 1em;
+    transition: box-shadow .3s;
+}
+#image_wrap:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.text_wrap {
+    margin:7.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.text_wrap a {
+    color:blue;
+    font-weight: bold;
+    font-family: 'Source Serif Pro', serif;
+}
+#line_break {
+    width: 100%;
+}
+img {
+    width:100%;
+}
+h3 {
+    font-weight: bold;
+    font-family: 'Source Serif Pro', serif;
+}
+h2{
+    font-family: 'Source Serif Pro', serif;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+#HeadShotImg {
+    border: 1px dotted black;
+    border-radius: 50%;
+    width:25%;
+    margin: 10px;
+}
+#resume_button {
+    border-radius: 1em;
+    height: 3em;
+    padding: 5px;
+}
+.full_page_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact_page_wrapper {
+    border: 1px solid black;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+#form_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.google_maps {
+    color: black;
+    overflow: hidden;
+    text-align: center;
+}
+#boldMe {
+    font-weight: bold;
+    font-size: 1.25em;
+}
