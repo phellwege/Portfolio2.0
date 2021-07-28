@@ -11,9 +11,9 @@ const BottomFooter = () => {
                 <a href="http://linkedin.com/in/peter-hellwege"><img id="logo2" src={linkedin} alt="logo"/>Linkedin</a>
             </div>
                 <div id="footer_links">
-                    <Link to={"/"}>Home</Link>
-                    <Link to="/About">About</Link>
-                    <Link to="/Contact">Contact</Link>
+                    <a href={"#About"}>About</a>
+                    <a href="#Projects">Projects</a>
+                    <a href="#Contact">Contact</a>
                 </div>
         </footer>
     )

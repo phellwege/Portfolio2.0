@@ -37,6 +37,7 @@ const About = () => {
                         <br />
                         <p id="quote">
                             “The Purpose of software engineering is to control complexity, not to create it.”
+                            <div id="line_break"></div>
                         </p>-- Pamela Have
                         <div id="line_break"></div>
                         <br />

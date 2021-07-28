@@ -11,17 +11,23 @@ export default () => {
     return (
         <div>
             <Logo/>
-            <h1>
+            <a id="About">
+                <h1 id="main_page_h1">
                 About
-            </h1>
+                </h1>
+            </a>
             <About/>
-            <h1>
-                Projects
-            </h1>
+            <a id="Projects">
+                <h1 id="main_page_h1">
+                    Projects
+                </h1>
+            </a>
             <Project/>
-            <h1>
-                Contact
-            </h1>
+            <a id="Contact">
+                <h1 id="main_page_h1">
+                    Contact
+                </h1>
+            </a>
             <Contact/>
             <footer>
                 <BottomFooter/>
