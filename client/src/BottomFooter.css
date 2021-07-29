@@ -11,7 +11,7 @@
     margin: 5px;
 }
 #footer_links a {
-    color: blue;
+    color: white;
 }
 #job_links {
     display: flex;
@@ -20,7 +20,7 @@
     justify-content: space-around;
 }
 #job_links a {
-    color: blue;
+    color: white;
 }
 #logo1 {
     width: 7.5%;

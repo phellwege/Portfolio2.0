@@ -9,7 +9,7 @@ import Contact from "../components/Contact"
 
 export default () => {
     return (
-        <div>
+        <div id="background">
             <Logo/>
             <a id="About">
                 <h1 id="main_page_h1">

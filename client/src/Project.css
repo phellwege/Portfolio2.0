@@ -1,6 +1,9 @@
 @import "react-alice-carousel/lib/alice-carousel.css";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -21,16 +24,17 @@
     padding: 10px;
     margin: 10px;
     width: 70%;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 1em;
     transition: box-shadow .3s;
+    background-color: white;
 }
 #image_wrap:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    box-shadow: 0 0 12px rgba(33,33,33,1); 
 }
 
 .text_wrap {
-    margin:7.5px;
+    margin:10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -51,16 +55,19 @@ img {
 }
 h3 {
     font-weight: bold;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Roboto', sans-serif;
 }
 h2{
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Roboto', sans-serif;
     padding: 10px;
 }
 h1 {
     text-align: center;
     padding: 10px;
-    
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
 }
 #HeadShotImg {
     border: 1px dotted black;
@@ -72,6 +79,13 @@ h1 {
     border-radius: 1em;
     height: 3em;
     padding: 5px;
+    background-color: #2471A3;
+    color: white;
+    transition: box-shadow .3s;
+    font-weight: bold;
+}
+#resume_button:hover {
+    box-shadow: 0 0 12px rgba(27, 27, 27, 0.4); 
 }
 .full_page_wrap {
     display: flex;
@@ -82,18 +96,19 @@ h1 {
 }
 
 .contact_page_wrapper {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 1em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    width: 50%;
+    width: 65%;
     transition: box-shadow .3s;
+    background-color: white;
 }
-.contact_page_wrap:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+.contact_page_wrapper:hover {
+    box-shadow: 0 0 12px rgba(33,33,33,1); 
 }
 #form_wrapper {
     display: flex;
@@ -113,10 +128,17 @@ h1 {
 
 #main_page_h1 {
     margin-left:20%;
+    color: white;
+    text-shadow: 0 0 12px rgba(33,33,33,1);
 }
 
 @media only screen and (max-width: 720px) {
     #image_wrap {
         width: 80%;
     }
+}
+#background {
+    background-image: url("../src/static/Background1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

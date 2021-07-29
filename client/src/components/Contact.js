@@ -15,8 +15,10 @@ function Contact() {
         <>
             <div class="full_page_wrap">
                 <div class="contact_page_wrapper">
+                    
+                    <h2>Feel free to reach out!</h2>
+                    
                     <div id="form_wrapper">
-                        <h2>Contact Me</h2>
                         <form target="_blank" action="https://formsubmit.co/phellwege1@gmail.com" method="POST">
                             <div class="form-group">
                                 <div class="form-row">
@@ -37,8 +39,7 @@ function Contact() {
                             <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
                         </form></div>
                     <div class="text_wrap">
-                        <h3>Feel free to reach out!</h3>
-                        <p> This form is for general inquiries, and to establish contact. Please do not submit any sensitive information.</p>
+                        
                     </div>
                 </div>
             </div>

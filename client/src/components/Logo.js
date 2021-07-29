@@ -12,12 +12,6 @@ const Logo = () => {
   <li><a href="#Projects">Projects</a></li>
   <li><a href="#Contact">Contact</a></li>
 </ul>
-
-            {/* <navBar id="navigation"><img id="logo" src={logo} alt="logo"/>
-                <Link to={"/"}> Home </Link>|| 
-                <Link to="/About">About</Link> || 
-                <Link to="/Contact">Contact</Link>
-            </navBar> */}
         </div>
     )
 }

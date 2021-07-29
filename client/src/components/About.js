@@ -20,7 +20,7 @@ const About = () => {
                         </h1>
                         <br />
                         <div id="line_break"></div>
-                        <h2>Technology</h2>
+                        <h2>Proficiencies</h2>
                         <p>
                             LANGUAGES: JavaScript(ES6), JAVA, Python, CSS, HTML
                             <br />
@@ -37,20 +37,34 @@ const About = () => {
                         <br />
                         <p id="quote">
                             “The Purpose of software engineering is to control complexity, not to create it.”
+                            </p>
                             <div id="line_break"></div>
-                        </p>-- Pamela Have
+                            <p>
+                        -- Pamela Have</p>
                         <div id="line_break"></div>
                         <br />
                         <br />
-                        <a href="https://github.com/phellwege"><LoopTrue />GitHub</a>
+                        <a href="https://github.com/phellwege">
+                            <LoopTrue />
+                        <br/>
+                            GitHub
+                        </a>
                         <br />
-                        <a href="http://linkedin.com/in/peter-hellwege"><LinkedinLoop />Linkedin</a>
+                        <a href="http://linkedin.com/in/peter-hellwege">
+                            <LinkedinLoop />
+                        <br/>
+                            Linkedin
+                        </a>
                         <br />
+                        
+                        <div id="line_break"><a href="#Contact">
+                            <button id="resume_button" >Contact By Email</button></a>
+                        </div>
                         <div id="line_break"></div>
                         <br />
                         <div class="google_maps">
                             <h3>Where am I located?</h3>
-                            <p> Scenic <span id="boldMe">Boise, Idaho</span> I would also be more than happy to work remotely on your behalf. </p>
+                            <p> Scenic <span id="boldMe">Boise, Idaho</span> I would also be more than happy to work remotely. </p>
                             <br />
 
                             {/* <MapContainer />             */}
