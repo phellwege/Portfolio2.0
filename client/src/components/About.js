@@ -20,15 +20,23 @@ const About = () => {
                         </h1>
                         <br />
                         <div id="line_break"></div>
+                            <h2>
+                                About me
+                            </h2>
+                        <br />
+                        <p>
+                            I stumbled into software engineering somewhat by accident, but I couldn't be happier. I love using my creativity to solve complicated problems and having the freedom to make innovative changes. There's just something magical about sitting down at your computer and making something from just your knowledge and a keyboard. 
+                        </p>
+                        <div id="line_break"></div>
                         <h2>Proficiencies</h2>
                         <p>
-                            LANGUAGES: JavaScript(ES6), JAVA, Python, CSS, HTML
+                            <span id="boldMe">LANGUAGES:</span> JavaScript(ES6), JAVA, Python, CSS, HTML
                             <br />
-                            FRONT END: React, jQuery, AJAX, JSON, RESTful APIs, Bootstrap, Materialize, React-Carousel, React-Spring, React-Multer, React-MaterialUI
+                            <span id="boldMe">FRONT END:</span> React, jQuery, AJAX, JSON, RESTful APIs, Bootstrap, Materialize, React-Carousel, React-Spring, React-Multer, React-MaterialUI
                             <br />
-                            BACK END: Node.js, Django, Flask, Rails, AWS, Socket.io, OOP
+                            <span id="boldMe">BACK END:</span> Node.js, Django, Flask, Rails, AWS, Socket.io, OOP
                             <br />
-                            DATABASES: SQL (MySQL, SQLite), NoSQL (MongoDB), Django ORM
+                            <span id="boldMe">DATABASES:</span> SQL (MySQL, SQLite), NoSQL (MongoDB), Django ORM
                         </p>
                         <br />
                         <div id="line_break"></div>

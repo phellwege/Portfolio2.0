@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from '@reach/router';
 import axios from 'axios';
-import img1 from "../static/SW1.png";
-import img2 from "../static/SW2.png";
-import img3 from "../static/SW3.png";
-import img4 from "../static/SW4.png";
+import img1 from "../static/coffeeshop1.png";
+import img2 from "../static/coffeeshop2.png";
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import Logo2 from "../components/Logo2";
@@ -14,19 +12,17 @@ import BottomFooter from "../components/BottomFooter";
 
 const handleDragStart = (e) => e.preventDefault();
 const items = [
-    <img src={img2} onDragStart={handleDragStart} />,
     <img src={img1} onDragStart={handleDragStart} />,
-    <img src={img3} onDragStart={handleDragStart} />,
-    <img src={img4} onDragStart={handleDragStart} />,
+    <img src={img2} onDragStart={handleDragStart} />,
 ];
 
 const SWHomeComing = () => {
     return (
-        <div id="SWBG">
+        <div id="CoffeeShopBG">
         <Logo2/>
             <div id="full_body_wrap">
                 <div id="image_wrap">
-                    <h2>Star Wars Homecoming</h2><AliceCarousel mouseTracking items={items} autoPlay={true} autoPlayInterval={3000} infinite={true}/>
+                    <h2>CoffeeShop</h2><AliceCarousel mouseTracking items={items} autoPlay={true} autoPlayInterval={3000} infinite={true}/>
                 
                 <div class="text_wrap">
                     <p>
@@ -45,8 +41,8 @@ const SWHomeComing = () => {
     Utilized Bcrypt, and multiple validations to protect our data.
     Tested the code using W3 Code Validator to ensure it functioned at its maximum potential. 
                 <br/>
-                <h3>Check it out Live here!</h3>
-                <a href="//ec2-3-14-141-156.us-east-2.compute.amazonaws.com/" target="_blank" rel="noopener noreferrer">Live Version</a></p>
+                <h3>Check it out on Github</h3>
+                <a href="https://github.com/phellwege/CoffeeShop" target="_blank" rel="noopener noreferrer">GitHub</a></p>
                 <br/>
                 <div class="text_wrap">
                     <p>

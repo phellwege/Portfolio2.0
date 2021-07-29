@@ -11,6 +11,19 @@ import img6 from "../static/EP1.png";
 import img7 from "../static/EP2.png";
 import img10 from "../static/coffeeshop1.png";
 import img11 from "../static/coffeeshop2.png";
+import py from '../static/python.png';
+import django from '../static/django.png';
+import sqlite from '../static/sqlite.png';
+import ajax from '../static/ajax.png';
+import css from '../static/CSS.png';
+import html from '../static/HTML.png';
+import js from '../static/JavaScript.png';
+import express from '../static/expressjs.png';
+import nodejs from '../static/nodejs.png';
+import mongo from '../static/mongodb.png';
+import java from '../static/java.png';
+import mysql from '../static/mysql.png';
+import jquery from '../static/jQuery.png';
 
 
 const handleDragStart = (e) => e.preventDefault();
@@ -49,13 +62,18 @@ const Project = () => {
                             <h3>
                                 Technology:
                             </h3>
-                            <p>
-
-                            </p>
+                                <div class="little_icons">
+                                    <img src={py}/>
+                                    <img src={django}/>
+                                    <img src={sqlite}/>
+                                    <img src={ajax}/>
+                                    <img src={css}/>
+                                    <img src={html}/>
+                                </div>
                             <div id="line_break">
                                 <br />
                             </div>
-                            <Link to="/SW"><h3>Details</h3></Link>
+                            <Link to="/SW"><h3>View Details</h3></Link>
                         </p>
                     </div>
                 </div>
@@ -73,13 +91,17 @@ const Project = () => {
                             <h3>
                                 Technology:
                             </h3>
-                            <p>
-
-                            </p>
+                            <div class="little_icons">
+                                    <img src={js}/>
+                                    <img src={express}/>
+                                    <img src={nodejs}/>
+                                    <img src={mongo}/>
+                                    <img src={css}/>
+                                </div>
                             <div id="line_break">
                                 <br />
                             </div>
-                            <Link to="/SW"><h3>Details</h3></Link>
+                            <Link to="/CoffeeShop"><h3>View Details</h3></Link>
                         </p>
                     </div>
                 </div>
@@ -98,13 +120,16 @@ const Project = () => {
                             <h3>
                                 Technology:
                             </h3>
-                            <p>
-
-                            </p>
+                            <div class="little_icons">
+                                    <img src={java}/>
+                                    <img src={mysql}/>
+                                    <img src={jquery}/>
+                                    <img src={css}/>
+                                </div>
                             <div id="line_break">
                                 <br />
                             </div>
-                            <Link to="/EventPlanner"><h3>Details</h3></Link>
+                            <Link to="/EventPlanner"><h3>View Details</h3></Link>
                         </p>
                     </div>
 

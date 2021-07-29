@@ -3,7 +3,7 @@ import { Router } from '@reach/router';
 import Main from './views/Main';
 
 
-
+import CoffeeShop from './views/CoffeeShop';
 import About from './components/About'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Contact from './components/Contact';
@@ -22,7 +22,7 @@ function App() {
             <Contact path="/Contact"/>
             <SWHomeComing path="/SW"/>
             <EventPlanner path="/EventPlanner"/>
-            
+            <CoffeeShop path="/CoffeeShop"/>
           </Router>
       </React.Fragment>
     </div>

@@ -6,6 +6,7 @@ import About from "../components/About";
 import BottomFooter from "../components/BottomFooter"
 import Project from "../components/Project"
 import Contact from "../components/Contact"
+import doggo from '../static/BarkingDog.gif'
 
 export default () => {
     return (
@@ -30,6 +31,12 @@ export default () => {
             </a>
             <Contact/>
             <footer>
+                <div id="doggo">
+                    <a href="#About"> 
+                    <img src={doggo} alt="loading"/>
+                            Scroll to Top
+                    </a>
+                </div>
                 <BottomFooter/>
             </footer>
             

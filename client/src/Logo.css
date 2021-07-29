@@ -5,6 +5,7 @@
     display: block;
     border-radius: 1em;
     box-shadow: 0 0 12px rgba(33,33,33,1); 
+    opacity: 90%;
 }
 #header_wrap {
     padding: 10px;
@@ -41,4 +42,20 @@
 #navigation li a:hover:not(.active) {
     background-color: #555;
     color: white;
+}
+.little_icons img{
+    width: 5%;
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+#doggo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+#doggo a {
+    color:white;
+    font-size: 1.5em;
 }

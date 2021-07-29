@@ -70,7 +70,7 @@ p{
     font-family: 'Ubuntu', sans-serif;
 }
 #HeadShotImg {
-    border: 1px dotted black;
+    border: 1px solid black;
     border-radius: 50%;
     width:25%;
     margin: 10px;
@@ -123,7 +123,7 @@ p{
 }
 #boldMe {
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1.05em;
 }
 
 #main_page_h1 {
@@ -139,6 +139,23 @@ p{
 }
 #background {
     background-image: url("../src/static/Background1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#CoffeeShopBG {
+    background-image: url("../src/static/coffeeBG.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#SWBG {
+    background-image: url("../src/static/SWBG.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 55%;
+}
+#EventBG {
+    background-image: url("../src/static/eventBG.jpeg");
+    
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
