@@ -6,7 +6,7 @@ import img7 from "../static/EP2.png";
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import Logo2 from "../components/Logo2";
-import BottomFooter from "../components/BottomFooter";
+import BottomFooter2 from "../components/BottomFooter2";
 
 
 const handleDragStart = (e) => e.preventDefault();
@@ -17,6 +17,7 @@ const items = [
 
 const EventPlanner = () => {
     return (
+        <>
         <div id="EventBG">
         <Logo2/>
             <div id="full_body_wrap">
@@ -33,7 +34,8 @@ const EventPlanner = () => {
                         Led a team of three engineers remotely via Github tools including facilitating discovery and planning meetings, designing code architecture, producing wireframe and journey maps, and testing to deliver a functional MVP in 7 days. 
 Enriched UX with CSS, HTML, JavaScript to create a customer messaging feature similar to Facebook’s, and integrated a third party GoogleMaps API with JQuery to enable geolocation and increase user engagement. 
 Maximized user data and application security with JavaBcrypt and optimized load time by testing and validating applications with W3 Code Validator.
-</p>
+                    </p>
+                    
                 <div class="text_wrap">
                     <p>
                         <h3>Technology Utilized:</h3>
@@ -42,9 +44,9 @@ Maximized user data and application security with JavaBcrypt and optimized load 
                 </div>
                 </div>
                 </div>
-                
-            <BottomFooter/>
+            <BottomFooter2/>
         </div>
+        </>
     )
 };
 export default EventPlanner;

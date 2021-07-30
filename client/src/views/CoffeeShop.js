@@ -6,7 +6,7 @@ import img2 from "../static/coffeeshop2.png";
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import Logo2 from "../components/Logo2";
-import BottomFooter from "../components/BottomFooter";
+import BottomFooter2 from "../components/BottomFooter2";
 
 
 
@@ -27,33 +27,32 @@ const SWHomeComing = () => {
                 <div class="text_wrap">
                     <p>
                     <h3>Non-Technical Description:</h3>
-                    <p>This was a really fun Python project that three engineers completed in a little under four days.
-                        We didn't want to utilize any API's, because we wanted to build everything form scratch. 
-                        The overall concept is a text based star wars game, which gave us some interesting requirements.
-                        We needed a login and registration, as well as character selection and individual statistics.
-                        We then needed to create a massive database of planets, and their specific information to allow travel to unique worlds.
+                    <p>This was a MERN project that presented a log of unique challenges. 
+                        It has a multi-tiered login system, and can collect inventory information directly from the admin in order to show the currently stocked items.
                     </p>
                     <br/>
                         <h3>Technical Description:</h3>
-                    Collaborated on a team of three and coordinated  planning, creating wireframes, and group discussions in order to increase overall productivity on the project.
-    Designed a responsive, clean front-end interface using a combination of CSS, SQLite and JQuery to create a more seamless and comprehensive environment.
-    Implemented a robust SQLite database using Django in order to improve future maintenance, and elevate user experience.
-    Utilized Bcrypt, and multiple validations to protect our data.
-    Tested the code using W3 Code Validator to ensure it functioned at its maximum potential. 
+                    This project started as a solo project and evolved into a multi-person passion project. 
+                    CoffeeShop was managed using SCRUM in order to maintain efficiency. and changes were administered directly through GitHub.
+                    CoffeeShop is a SPA (single page application) primarily built out in ReactJS with express for middle and MongoDB for backend. 
+                    This allows it to be very user friendly, and have a clean functional appearance.  
+                    We intentionally avoided the use of Bootstrap for additional CSS practice.
+                    Utilized Bcrypt, and multiple validations to protect our clients data.
+                <div id="line_break"></div>
                 <br/>
-                <h3>Check it out on Github</h3>
+                <h3>Check it out on my Github</h3>
                 <a href="https://github.com/phellwege/CoffeeShop" target="_blank" rel="noopener noreferrer">GitHub</a></p>
                 <br/>
                 <div class="text_wrap">
                     <p>
                         <h3>Technology Utilized:</h3>
-                        Python, HTML5, CSS, JavaScript, SQLite, Django, JQuery, AJAX, Github, ZSH, AWS EC2, BCrypt.</p>
+                        ReactJS, HTML5, CSS, JavaScript, ExpressJS, MongoDB, Axios, Github, AWS EC2, BCrypt.</p>
                 </div>
                 </div>
                 </div>
                 </div>
                 
-            <BottomFooter/>
+            <BottomFooter2/>
         </div>
     )
 };

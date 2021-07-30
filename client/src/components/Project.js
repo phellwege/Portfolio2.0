@@ -53,11 +53,8 @@ const Project = () => {
                     <div class="text_wrap">
                         <p>
                             <h3>Description:</h3>
-                            Collaborated on a team of three and coordinated  planning, creating wireframes, and group discussions in order to increase overall productivity on the project.
-                            Designed a responsive, clean front-end interface using a combination of CSS, SQLite and JQuery to create a more seamless and comprehensive environment.
-                            Implemented a robust SQLite database using Django in order to improve future maintenance, and elevate user experience.
-                            Utilized Bcrypt, and multiple validations to protect our data.
-                            Tested the code using W3 Code Validator to ensure it functioned at its maximum potential.
+                                Star Wars HomeComing is a text based interactive game. Where you can create your own custom character, and travel the known galaxy. It's a lightweight Python application, that is easy to use with a nice UI.
+                            <div id="line_break"></div>
                             <br />
                             <h3>
                                 Technology:
@@ -87,6 +84,7 @@ const Project = () => {
                             <h3>Description:</h3>
                             {/* no more than three sentences */}
                             CoffeeShop is an E-commerce application designed to make it easier for small business owners to operate their business. It has a multi-tiered login system allowing delegation with, while mitigating business risk.
+                            <div id="line_break"></div>
                             <br />
                             <h3>
                                 Technology:
@@ -115,7 +113,10 @@ const Project = () => {
                     <div class="text_wrap">
                         <p>
                             <h3>Description:</h3>
-                            {/* no more than three sentences */} Event Planner is a basic event planning app. It has some relatively complicated dynamic functions built into a simplistic UI.
+                            Event Planner is a basic event planning application. 
+                            It allows the user so sign in and create or join events and can determine the location and input it on google maps.
+                            It also determines how many guests are currently in attendance.
+                            <div id="line_break"></div>
                             <br />
                             <h3>
                                 Technology:

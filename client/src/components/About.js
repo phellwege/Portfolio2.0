@@ -6,6 +6,7 @@ import LinkedinLoop from './LinkedinLoop';
 import HeadShot from '../static/HeadShot.jpeg';
 import '../Project.css';
 import MapContainer from '../components/GoogleMaps';
+import resume from '../static/Peter.Hellwege.Resume_3.pdf'
 
 const About = () => {
     return (
@@ -40,7 +41,7 @@ const About = () => {
                         </p>
                         <br />
                         <div id="line_break"></div>
-                        <Link to="../static/Peter.Hellwege.Resume_3.pdf" target="_blank" download><button id="resume_button" >Download Resume</button></Link>
+                        <a href={resume} download="../static/Peter.Hellwege.Resume_3.pdf"><button id="resume_button" >Download Resume</button></a>
                         <div id="line_break"></div>
                         <br />
                         <p id="quote">

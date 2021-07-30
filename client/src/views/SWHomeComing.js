@@ -8,7 +8,7 @@ import img4 from "../static/SW4.png";
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import Logo2 from "../components/Logo2";
-import BottomFooter from "../components/BottomFooter";
+import BottomFooter2 from "../components/BottomFooter2";
 
 
 
@@ -44,6 +44,7 @@ const SWHomeComing = () => {
     Implemented a robust SQLite database using Django in order to improve future maintenance, and elevate user experience.
     Utilized Bcrypt, and multiple validations to protect our data.
     Tested the code using W3 Code Validator to ensure it functioned at its maximum potential. 
+                <div id="line_break"></div>
                 <br/>
                 <h3>Check it out Live here!</h3>
                 <a href="//ec2-3-14-141-156.us-east-2.compute.amazonaws.com/" target="_blank" rel="noopener noreferrer">Live Version</a></p>
@@ -57,7 +58,7 @@ const SWHomeComing = () => {
                 </div>
                 </div>
                 
-            <BottomFooter/>
+            <BottomFooter2/>
         </div>
     )
 };
