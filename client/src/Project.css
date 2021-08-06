@@ -141,6 +141,10 @@ p{
     background-image: url("../src/static/Background1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
 }
 #CoffeeShopBG {
     background-image: url("../src/static/coffeeBG.jpeg");
@@ -155,7 +159,6 @@ p{
 }
 #EventBG {
     background-image: url("../src/static/eventBG.jpeg");
-    
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
