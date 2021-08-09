@@ -136,29 +136,43 @@ p{
     #image_wrap {
         width: 80%;
     }
+
 }
+
 #background {
     background-image: url("../src/static/Background1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
+    background-size: cover;
 }
 #CoffeeShopBG {
     background-image: url("../src/static/coffeeBG.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #SWBG {
     background-image: url("../src/static/SWBG.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 55%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #EventBG {
     background-image: url("../src/static/eventBG.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
